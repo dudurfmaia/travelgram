@@ -22,3 +22,7 @@ nav .navmenu {
   height: 40px;
   object-fit: cover;
 }
+nav a:hover {
+  color: var(--brand-color);
+text-decoration: underline;
+}
