@@ -1,0 +1,50 @@
+header {
+  padding-block: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+
+}
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  
+}
+.info{
+  width: 280px;
+}
+.info li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: var(--text-color-secondary);
+  line-height: 125%;
+  font-weight: 400;
+  gap: 8px;
+}
+  
+
+.profileinfo {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  
+}
+.profileinfo > div {
+  max-width: 384px;
+}
+.profileinfo h1 {
+  font-size: 32px;
+  line-height: 125%;
+  font-weight: 700;
+}
+.profileinfo p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 170%;
+  color: var(--text-color-secondary);
+}
