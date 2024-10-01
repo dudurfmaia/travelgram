@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 24px;
+  align-items: center;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+}
+footer span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #6C6C6C;
+}
+ul li a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
